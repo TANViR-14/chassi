@@ -1,0 +1,186 @@
+title {
+  background-image: url(pics/icn.png);
+}
+
+body 
+{
+	margin:0 auto;
+        font-family: sans-serif;
+
+	
+}
+
+.header
+{
+	background-image: url(pics/topback4.jpg); /*background image*/
+	background-size: 100% 250%;  /*picture size*/
+	color :white;  /*background colour*/
+	text-align:center; /* lekha gulo button ar
+   majha majhi position a ase*/
+	margin:5px; /*header ar margin*/
+	padding:1%; /* picture r length  barale komale picture change hoi
+	,box size fixed*/
+	width:96%;/*picture width*/
+	min-height:100px; /*minimum highet*/
+		float: left; /*background r likha left side a asbe*/
+
+
+	
+}
+
+
+.logo a 
+{  
+background-image: url(pics/logo.png);
+padding: 70px; /*box a size ,,hieght*/
+background-size: 170px; /*logo r background size*/
+background-repeat: no-repeat; /*pic repeat hobe na aikhane 
+solid color tai dekha jabe na*/
+float: left;/*logo left side e dekha jabe,na dela majkhane asbe*/
+clear: both; /*pic repeat hole bujha jabe*/
+}
+
+.navbar {
+    overflow: hidden; /* background a ja ache tai thakbe*/
+    background-color: inherit; /*by default background color 
+    white hoi kintu inherit hole white thake na*/
+    margin-left: 50%; /*mergin theke koto dure navbar*/
+    margin-top: 5%;/*top theke navbar koto dure*/
+    font-family: kalpurush, Helvetica, sans-serif; /*specific front 
+    family or text*/
+}
+
+.navbar a { /*dropdown bad diye baki navbar gulo*/
+    float: left;
+    font-size: 25px;
+    text-align: center;/*test gulo majkhane asbe*/
+    text-decoration: none; /* aita na dela button ar niche solid line asbe*/
+    padding: 10px 16px 10px 16px; /*padding na dela button
+     gulo same distance a asbe na*/
+    color :black; /*button color black*/
+    font-weight: bold; /*button gulo bold*/
+}
+
+
+.navbar a:hover
+{
+  color: white; /*button a click korle likha gulo white asbe*/
+}
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+
+}
+
+.dropdown .dropbtn {
+    font-size: 27px; /*button gulo size kom besi korle upore niche ase*/   
+    border: none;/*na dela akta box asbe*/
+    outline: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 16px 10px 16px; /*padding na dela
+     button upore chole jbe*/
+    background-color: inherit;
+    font-family: inherit;
+}
+.dropdown .dropbtn:hover
+{
+  color: white;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red; /*button a click korle red color asbe*/
+}
+
+.dropdown-content {
+    display: none;/*aita na dile drop button show korbe*/
+    position: absolute;/*na dela drop button a click 
+    korle navbar gulo alomelo hoye jabe*/
+    background-color: #ffe791; /*drop down r color*/
+    min-width: 160px;/*drop down r width*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;/*box r size*/
+    text-decoration: none;
+    display: block; 
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: red;/*drop button r hover*/
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;/*na dele drop button show korbe na*/
+}
+
+
+.mbody
+{
+	background-color: white;/*section r color*/
+	background-image: url(pics/topback4.jpg);
+	background-size: 100% 250%;
+	background-repeat: no-repeat;
+	text-align:justify; /*text alaign fixed thakbe*/
+		margin:5px;/* section r margin*/
+	padding:1%;
+		width:96%;/*section width*/
+	
+	min-height:450px;
+		float:left;
+
+	
+}
+
+
+
+
+					#sect1
+					{
+						background-color:inherit;
+						color :black;
+						text-align:center;
+						margin:5px;
+						padding:1%;
+						width:38%;
+						min-height:400px;
+							float:left
+					}
+                            
+
+					#sect2
+					{
+						background-color:inherit;
+						color :black;
+						text-align:center;
+						margin:5px;
+						padding:1%;
+						width:56%;
+						min-height:400px;
+							float:left
+						
+					}               			
+
+
+.footer
+{
+	background-image: url(pics/topback5.jpg);
+	background-size: 100% 100%;
+	color :black;
+	text-align:center;
+	margin:5px;
+	padding:3%;
+	width:92%;
+	min-height:50px;
+	float: left;
+
+	
+}
